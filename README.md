@@ -1,2 +1,2 @@
 # eslint-config-boxdeluxe
-> See [http://eslint.org/docs/developer-guide/shareable-configs](Shareable eslint configs) for more details
+> See [Shareable eslint configs](http://eslint.org/docs/developer-guide/shareable-configs) for more details
