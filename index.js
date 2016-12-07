@@ -1,25 +1,14 @@
-module.exports = {
-  // http://eslint.org/docs/rules/
-  "parser": "babel-eslint",
-  "ecmaFeatures": {
-    "binaryLiterals": false,                    // enable binary literals
-    "blockBindings": false,                     // enable let and const (aka block bindings)
-    "defaultParams": false,                     // enable default function parameters
-    "forOf": false,                             // enable for-of loops
-    "generators": false,                        // enable generators
-    "modules": true,                            // enable ES Module System
-    "objectLiteralComputedProperties": false,   // enable computed object literal property names
-    "objectLiteralDuplicateProperties": false,  // enable duplicate object literal properties in strict mode
-    "objectLiteralShorthandMethods": false,     // enable object literal shorthand methods
-    "objectLiteralShorthandProperties": false,  // enable object literal shorthand properties
-    "octalLiterals": false,                     // enable octal literals
-    "regexUFlag": false,                        // enable the regular expression u flag
-    "regexYFlag": false,                        // enable the regular expression y flag
-    "templateStrings": false,                   // enable template strings
-    "unicodeCodePointEscapes": false,           // enable code point escapes
-    "jsx": true                                 // enable JSX
-  },
+'use strict';
 
+module.exports = {
+  parserOptions: {
+    ecmaVersion: 2017,
+    sourceType: 'module',
+    ecmaFeatures: {
+      jsx: true,
+      experimentalObjectRestSpread: true
+    }
+  },
   "env": {
     "browser": true,      // browser global variables.
     "node": true,         // Node.js global variables and Node.js-specific rules.
@@ -31,14 +20,6 @@ module.exports = {
     "prototypejs": false, // prototypejs global variables.
     "shelljs": false,     // shelljs global variables.
   },
-
-  "globals": {
-    // e.g. "angular": true
-  },
-
-  "plugins": [
-    "react"
-  ],
 
   "rules": {
     ////////// Possible Errors //////////

@@ -6,10 +6,19 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "engines": {
+    "node": ">=4"
+  },  
   "keywords": [
     "eslint",
     "eslintconfig"
   ],
   "author": "Lewis Nixon",
-  "license": "ISC"
+  "license": "GNU",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kojinkai/eslint-config-boxdeluxe.git"
+  },
+  "homepage": "https://github.com/kojinkai/eslint-config-boxdeluxe#readme",
+  "version": "0.1.0"
 }
