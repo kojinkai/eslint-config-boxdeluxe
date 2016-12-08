@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-boxdeluxe",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "A Shareable, extensible ESNext compliant eslint config",
   "main": "index.js",
   "scripts": {
