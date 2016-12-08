@@ -1,14 +1,14 @@
 {
   "name": "eslint-config-boxdeluxe",
-  "version": "1.0.0",
-  "description": "The Boxdeluxe eslint config",
+  "version": "0.1.1",
+  "description": "A Shareable, extensible ESNext compliant eslint config",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "ava --tap | tap-nyan"
   },
   "engines": {
     "node": ">=4"
-  },  
+  },
   "keywords": [
     "eslint",
     "eslintconfig"
@@ -20,5 +20,14 @@
     "url": "git+https://github.com/kojinkai/eslint-config-boxdeluxe.git"
   },
   "homepage": "https://github.com/kojinkai/eslint-config-boxdeluxe#readme",
-  "version": "0.1.1"
+  "devDependencies": {
+    "ava": "^0.17.0",
+    "eslint": "^3.11.1",
+    "is-plain-obj": "^1.1.0",
+    "tap-nyan": "^1.1.0",
+    "temp-write": "^2.1.0"
+  },
+  "peerDependencies": {
+    "eslint": ">=3.10.0"
+  }  
 }
