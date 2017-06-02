@@ -188,7 +188,7 @@ module.exports = {
     }],                                     // require empty lines around comments     
     "space-before-blocks": 2,               // require or disallow space before blocks (off by default)
     "object-curly-spacing": [
-        "error", "never"
+        "error", "always"
     ],
     "array-bracket-spacing": [
         "error", "never"
