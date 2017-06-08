@@ -31,11 +31,9 @@ Or to `.eslintrc`:
 }
 ```
 
-> See [Shareable eslint configs](http://eslint.org/docs/developer-guide/shareable-configs) for 
+* Supports es2017 features
+* See [Shareable eslint configs](http://eslint.org/docs/developer-guide/shareable-configs) for 
 more details
-
-View this package on [npmjs.com](https://www.npmjs.com/package/generator-karma-gulp-browserify)
-> Supports es2017 features
 
 ## License
 
