@@ -21,12 +21,12 @@
   },
   "homepage": "https://github.com/kojinkai/eslint-config-boxdeluxe#readme",
   "devDependencies": {
-    "ava": "^0.17.0",
-    "eslint": "^3.11.1",
+    "ava": "^0.24.0",
+    "eslint": "^4.16.0",
     "is-plain-obj": "^1.1.0",
-    "nyc": "^10.0.0",
+    "nyc": "^11.4.1",
     "tap-nyan": "^1.1.0",
-    "temp-write": "^2.1.0"
+    "temp-write": "^3.4.0"
   },
   "peerDependencies": {
     "eslint": ">=3.10.0"
