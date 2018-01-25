@@ -1,5 +1,7 @@
 [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url]
 # eslint-config-boxdeluxe
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/kojinkai/eslint-config-boxdeluxe.svg)](https://greenkeeper.io/)
 The Boxdeluxe eslint styleguide used for JavaScript development
 
 View this package on [npmjs.com](https://www.npmjs.com/package/eslint-config-boxdeluxe)
